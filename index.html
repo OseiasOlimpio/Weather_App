@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./assets/script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Previsão do tempo</title>
+</head>
+
+<body>
+    <div class="caixaMaior">
+
+        <input class="input-cidade" id="cidade" type="text" placeholder="Digite o nome da cidade">
+        <button class="botao-busca"><img class="img-busca" src="https://www.svgrepo.com/show/488200/find.svg"
+                alt="Botao BUscar" onclick="cliqueBotao()"></button>
+        <div class="caixaMedia">
+            <h2 class="cidade"></h2>
+            <h4 class="texto-temp">Temperatura</h4>
+            <p class="temp"></p>
+            <h4 class="max-temp">Máxima:</h4>
+            <p class="max"></p>
+            <h4 class="min-temp">Mínima</h4>
+            <p class="min"></p>
+            <h4 class="texto-sense">Sensação Térmica:</h4>
+            <p class="sensacao"></p>
+
+            <div class="caixaMenor">
+                <img class="img-previsao">
+                <p class="texto-previsao"></p>
+            </div>
+            <h4 class="texto-umidade">Umidade:</h4>
+            <p class="umidade"></p>
+            <h4 class="texto-vento">Velocidade do Vento:</h4>
+            <p class="vento"></p>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
